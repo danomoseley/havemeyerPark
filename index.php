@@ -45,6 +45,7 @@
             <a target="_blank" href="http://northbrooklynfarms.com"><img src="logos/nbk.png"/></a>
             <a target="_blank" href="https://twitter.com/bbbyrdd"><img src="logos/redcircle.png"/></a>
             <a target="_blank" href="http://brooklynbikepark.org/"><img src="logos/brooklynbikepark.png"/></a>
+            <a target="_blank" href="http://www.bignyc.org/"><img src="logos/bignyc.png"/></a>
         </div>
     </body>
 </html>
