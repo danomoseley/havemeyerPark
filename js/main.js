@@ -13,7 +13,7 @@ mainImg.onload = function() {
 mainImg.src = "images/preload/p_" + window.backgroundImageSrc;
 
 function resizeText() {
-    $('.content').css('font-size', ($('.content .name').innerWidth() / ($('.content .name .letter-spaced').html().length+1))/4);
+    $('body').css('font-size', ($('.content .name').innerWidth() / ($('.content .name .letter-spaced').html().length+1))/4);
 }
 
 $(window).resize(function() {
