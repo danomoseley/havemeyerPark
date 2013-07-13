@@ -7,6 +7,7 @@ preloadImg.src = "images/" + window.backgroundImageSrc;
 var mainImg = new Image();
 mainImg.onload = function() {
     $('#cover-background-container').show();
+    $('#sponsors').show();
     resizeText();
     $('#preload-cover-background-container').remove();
 };
