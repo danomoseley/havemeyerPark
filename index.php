@@ -34,7 +34,11 @@
         <![endif]-->
     </head>
     <body>
-        <div class="border-box" id="cover-background-container" style="background-image:url(images/<?php echo $backgroundImage; ?>);-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;"></div>
+        <div class="border-box content" id="cover-background-container" style="background-image:url(images/<?php echo $backgroundImage; ?>);-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+            <div class="border border-box ">
+                Test
+            </div>
+        </div>
         <div class="border-box" id="preload-cover-background-container" style="background-image:url(images/preload/p_<?php echo $backgroundImage; ?>);-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;"></div>
     </body>
 </html>
