@@ -20,7 +20,7 @@
 ?>
 
 <!doctype html>
-<html lang="en" style="visibility:hidden;background-image:url(<?php echo $backgroundImage; ?>);-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+<html lang="en">
     <head>
         <meta charset="utf-8" />
         <title>Havemeyer Park</title>
@@ -33,5 +33,6 @@
         <![endif]-->
     </head>
     <body>
+        <div id="stretch-background-container" style="background-image:url(<?php echo $backgroundImage; ?>);-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;"></div>
     </body>
 </html>
