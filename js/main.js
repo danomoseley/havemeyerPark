@@ -8,13 +8,18 @@ var mainImg = new Image();
 mainImg.onload = function() {
     $('#cover-background-container').show();
     $('#sponsors').show();
-    resizeText();
     $('#preload-cover-background-container').remove();
+    resizeText();
 };
 mainImg.src = "images/preload/p_" + window.backgroundImageSrc;
 
-function resizeText() {
+function resizeText(firstPass) {
+    if (typeof firstPass == 'undefined') firstPass = true;
+    console.log($('.content .name').innerWidth());
     $('body').css('font-size', ($('.content .name').innerWidth() / ($('.content .name .letter-spaced').html().length+1))/4);
+    if (firstPass) {
+        resizeText(false);    
+    }
 }
 
 $(window).resize(function() {
