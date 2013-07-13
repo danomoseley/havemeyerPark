@@ -1,3 +1,6 @@
+$(window).load(function() {
+    $('html').fadeIn();
+});
 $('document').ready(function() {
     var backgroundImages = [
         '/images/20130611_1023.jpg',
