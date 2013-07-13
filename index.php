@@ -20,7 +20,7 @@
 ?>
 
 <!doctype html>
-<html lang="en" style="background-image:url(<?php echo $backgroundImage; ?>)">
+<html lang="en" style="background-image:url(<?php echo $backgroundImage; ?>);-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
     <head>
         <meta charset="utf-8" />
         <title>Havemeyer Park</title>
