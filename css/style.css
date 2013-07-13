@@ -3,7 +3,7 @@ body {
     padding:0;
 }
 
-#cover-background-container {
+#cover-background-container, #preload-cover-background-container {
     display:none;
     position: fixed;
     width:100%;
