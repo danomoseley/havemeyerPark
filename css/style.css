@@ -1,6 +1,9 @@
 html {
-    display:none;
     background-attachment: fixed;
     background-position: 50% 50%;
     background-repeat: no-repeat no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
