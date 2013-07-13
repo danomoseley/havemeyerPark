@@ -14,10 +14,9 @@ mainImg.onload = function() {
 mainImg.src = "images/preload/p_" + window.backgroundImageSrc;
 
 function resizeText(firstPass) {
-    if (typeof firstPass == 'undefined') firstPass = true;
     console.log($('.content .name').innerWidth());
     $('body').css('font-size', ($('.content .name').innerWidth() / ($('.content .name .letter-spaced').html().length+1))/4);
-    if (firstPass) {
+    if (typeof firstPass == 'undefined') {
         resizeText(false);    
     }
 }
