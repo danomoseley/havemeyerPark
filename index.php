@@ -41,5 +41,10 @@
             </div>
         </div>
         <div class="border-box" id="preload-cover-background-container" style="background-image:url(images/preload/p_<?php echo $backgroundImage; ?>);-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;"></div>
+        <div id="sponsors">
+            <a target="_blank" href="http://northbrooklynfarms.com"><img src="logos/nbk.png"/></a>
+            <a target="_blank" href="https://twitter.com/bbbyrdd"><img src="logos/redcircle.png"/></a>
+            <a target="_blank" href="https://www.facebook.com/BrooklynBikePark"><img src="logos/brooklynbikepark.png"/></a>
+        </div>
     </body>
 </html>
