@@ -26,8 +26,7 @@
         <title>Havemeyer Park</title>
         <link rel="stylesheet" href="css/style.css" />
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
-        <script src="//cdn.jsdelivr.net/jquery.cookie/1.3.1/jquery.cookie.js"></script> 
-        <script src="js/jquery.charjustify.js"></script>
+        <script src="//cdn.jsdelivr.net/jquery.cookie/1.3.1/jquery.cookie.js"></script>
         <script>window.backgroundImageSrc = '<?php echo $backgroundImage; ?>';</script>
         <script src="js/main.js"></script>
         <!--[if IE]>
