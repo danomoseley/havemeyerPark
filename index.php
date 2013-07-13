@@ -36,7 +36,7 @@
     <body>
         <div class="border-box content" id="cover-background-container" style="background-image:url(images/<?php echo $backgroundImage; ?>);-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
             <div class="border border-box ">
-                <div class="name">
+                <div class="name border-box">
                     HAVEMEYERPARK
                 </div>
             </div>
