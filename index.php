@@ -44,7 +44,7 @@
         <div id="sponsors">
             <a target="_blank" href="http://northbrooklynfarms.com"><img src="logos/nbk.png"/></a>
             <a target="_blank" href="https://twitter.com/bbbyrdd"><img src="logos/redcircle.png"/></a>
-            <a target="_blank" href="https://www.facebook.com/BrooklynBikePark"><img src="logos/brooklynbikepark.png"/></a>
+            <a target="_blank" href="http://brooklynbikepark.org/"><img src="logos/brooklynbikepark.png"/></a>
         </div>
     </body>
 </html>
