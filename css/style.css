@@ -20,6 +20,7 @@ body {
     position:absolute;
     bottom:0px;
     text-align:center;
+    width:100%;
 }
 
 #cover-background-container, #preload-cover-background-container {
