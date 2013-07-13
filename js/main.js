@@ -6,7 +6,7 @@ preloadImg.src = "images/" + window.backgroundImageSrc;
 
 var mainImg = new Image();
 mainImg.onload = function() {
-    $('#cover-background-container').fadeIn();
+    $('#cover-background-container').show();
     $('#preload-cover-background-container').remove();
 };
-mainImg.src = "images/preload/" + window.backgroundImageSrc;
+mainImg.src = "images/preload/p_" + window.backgroundImageSrc;
