@@ -10,13 +10,15 @@
         '20130702_1350.jpg',
         '20130702_1404.jpg'
     );
-    $lastBackgroundImageId = $_COOKIE['backgroundImageId'];
+    $lastBackgroundImageId =  isset($_COOKIE['backgroundImageId']) ? $_COOKIE['backgroundImageId'] : null;
     if (empty($lastBackgroundImageId)) {
         $lastBackgroundImageId = 0;
     }
-    setcookie('backgroundImageId', ++$lastBackgroundImageId);
-    
     $backgroundImage = $backgroundImages[$lastBackgroundImageId%count($backgroundImages)];
+
+    setcookie('backgroundImageId', ++$lastBackgroundImageId);
+    setcookie('backgroundImages', json_encode($backgroundImages));
+    setcookie('backgroundImageSrc', $backgroundImage);
 ?>
 
 <!doctype html>
@@ -27,7 +29,6 @@
         <link rel="stylesheet" href="css/style.css" />
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
         <script src="//cdn.jsdelivr.net/jquery.cookie/1.3.1/jquery.cookie.js"></script>
-        <script>window.backgroundImageSrc = '<?php echo $backgroundImage; ?>';</script>
         <script src="js/main.js"></script>
         <!--[if IE]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

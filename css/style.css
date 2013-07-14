@@ -12,6 +12,7 @@ body {
     height:30px;
     text-align:center;
     display:none;
+    z-index:999;
 }
 
 #sponsors img {
