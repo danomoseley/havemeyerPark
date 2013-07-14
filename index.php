@@ -14,9 +14,10 @@
     if (empty($lastBackgroundImageId)) {
         $lastBackgroundImageId = 0;
     }
+    $lastBackgroundImageId++;
     $backgroundImage = $backgroundImages[$lastBackgroundImageId%count($backgroundImages)];
 
-    setcookie('backgroundImageId', ++$lastBackgroundImageId);
+    setcookie('backgroundImageId', $lastBackgroundImageId);
     setcookie('backgroundImages', json_encode($backgroundImages));
     setcookie('backgroundImageSrc', $backgroundImage);
 ?>
