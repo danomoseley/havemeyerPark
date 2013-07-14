@@ -33,7 +33,7 @@ window.setInterval(function() {
         newCover.fadeIn(1500);
     };
     img.src = "images/" + backgroundImageSrc;
-}, 5000);
+}, 10000);
 
 function resizeText(firstPass) {
     $('body').css('font-size', ($('.content .name').innerWidth() / ($('.content .name .letter-spaced').html().length+1))/4);
