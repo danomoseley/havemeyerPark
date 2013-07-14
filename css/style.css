@@ -5,6 +5,10 @@ body {
     font-weight: 300;
 }
 
+a, img{
+    border:none;
+}
+
 #sponsors {
     position:absolute;
     bottom:0;
