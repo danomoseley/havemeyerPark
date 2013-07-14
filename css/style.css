@@ -9,14 +9,14 @@ body {
     position:absolute;
     bottom:0;
     width:100%;
-    height:30px;
+    height:35px;
     text-align:center;
     display:none;
     z-index:999;
 }
 
 #sponsors img {
-    height:27px;
+    height:35px;
     margin:0 10px;
 }
 
