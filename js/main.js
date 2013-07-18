@@ -5,7 +5,7 @@ setBackgroundImage({
     'source': "preload/p_" + currentBackgroundImageSrc,
     'transition': false,
     'callback': function() {
-        $('#sponsors').show();
+        $('body').show();
         resizeText();
         setBackgroundImage({
             'source': currentBackgroundImageSrc,
