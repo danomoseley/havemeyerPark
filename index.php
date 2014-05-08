@@ -22,7 +22,7 @@
         <meta charset="utf-8" />
         <title>Havemeyer Park</title>
         <link rel="stylesheet" href="css/style.css" />
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+        <script src="js/jquery.min.js"></script> 
         <script src="//cdn.jsdelivr.net/jquery.cookie/1.3.1/jquery.cookie.js"></script>
         <script>window.backgroundImages = <?php echo json_encode($backgroundImages) ?>;</script>
         <script src="js/main.js"></script>
